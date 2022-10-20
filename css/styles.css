@@ -166,6 +166,18 @@ img {
   line-height: 1.71;
 }
 
+.section.hero {
+  max-width: 1600px;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image:
+    linear-gradient(to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(/images/background.jpg);
+}
+
 .hero {
   text-align: center;
   padding-top: 200px;
