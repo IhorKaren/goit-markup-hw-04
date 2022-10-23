@@ -458,7 +458,6 @@ img {
 
 .footer-nav {
   display: flex;
-  flex-direction: block;
   align-items: baseline;
 }
 
