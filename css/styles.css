@@ -394,7 +394,6 @@ img {
 .social-link:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
-  fill: #ffffff;
 }
 
 .social-link:hover .social-icon,
@@ -453,7 +452,8 @@ img {
 }
 
 .footer-nav {
-  display: block;
+  display: flex;
+  flex-direction: block;
 }
 
 .footer-logo {
@@ -470,6 +470,11 @@ img {
 
 .footer-logo span {
   color: var(--accent-color);
+}
+
+.footer-address {
+  margin-right: 70px;
+  width: 231px;
 }
 
 .address {
@@ -492,6 +497,51 @@ img {
   color: var(--accent-color);
 }
 
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+}
+
+.footer-social {
+  display: block;
+  flex-wrap: wrap;
+  padding-top: 14px;
+}
+
+.footer-list {
+  display: inline-flex;
+  gap: 10px;
+}
+
+.footer-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  padding: 12px;
+}
+
+.footer-link > .social-icon {
+  fill: #ffffff;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
 
 /* Portfolio main */
 
